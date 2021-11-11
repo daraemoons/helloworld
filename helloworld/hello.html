@@ -1,0 +1,64 @@
+<html id = 'helloHtml'>
+    <head>
+        <h1> Hello World!</h1>
+        <h2> This is head</h2>
+    </head>
+    <body>
+        <p>This is body</p>
+        <div style = "background-color: #8ff;">
+            <input
+                placeholder = 'input text here'
+                id = 'input'>
+            <button id = 'confirm'>confirm</button>
+            <button id = 'deny'>deny</button>
+        </div>
+        <div style = 'display: flex;'>
+            <text id = 'plainText'>This is...</text>
+            <text id = 'changedText'>nothing here</text>
+        </div>
+        <br/>
+        <div>
+            <tr>
+                <text>User ID</text>
+                <input id = 'inputID' placeholder = 'input ID here' />
+            </tr>
+            <br/>
+            <tr>
+                <text>User Password</text>
+                <input id = 'inputPW' placeholder = 'input Password here' />
+            </tr>
+            <br/>
+            <input type = 'radio' id = 'rmbID' /> Remember ID
+            <button id = 'loadID'>Load ID</button>
+        </div>
+        <br/><br/>
+        <div class = 'itemTest'>
+            <tr>
+                <text>Item ID</text>
+                <input id = 'itemID' placeholder = 'input ID here' />
+            </tr>
+            <br/>
+            <tr>
+                <text>Item Text</text>
+                <input id = 'itemText' placeholder = 'input Text here' />
+            </tr>
+            <br/>
+            <button id = 'btnAdd'>Add</button>
+            <button id = 'btnModify'>Modify</button>
+            <button id = 'btnDelete'>Delete</button>
+            <button id = 'btnSave'>Save</button>
+            <button id = 'btnCancel'>Cancel</button>
+            <br/>
+            <ul class = 'itemList' id = 'itemList'>
+                <li id = 'item1'>item1</li>
+            </ul>
+            <br/>
+        </div>
+        <script src = 'hello.js'></script>
+        <link rel = 'stylesheet' href = 'hello.css'>
+    </body> 
+    <footer>
+        <p>Goodbye World!</p>
+        <button id = 'nextPage' onClick = 'next()'>Next Page</button>
+    </footer>
+</html>
